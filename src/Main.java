@@ -68,7 +68,6 @@ public class Main {
     private static double getAverageSalary() {
         return getTotalSalary() / employeeCount;
     }
-
     private static void printEmployeeNames() {
         for (int i = 0; i < employeeCount; i++) {
             System.out.println(employees[i].getFullName());
